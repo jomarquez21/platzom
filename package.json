@@ -1,0 +1,34 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomarquez21/platzom.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "fundamentos",
+    "curso"
+  ],
+  "author": "Jose Enrique Marquez <jmrqz21@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jomarquez21/platzom/issues"
+  },
+  "homepage": "https://github.com/jomarquez21/platzom#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
