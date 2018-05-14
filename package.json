@@ -5,7 +5,7 @@
   "main": "dist/src/platzom.js",
   "scripts": {
     "start": "babel src/platzom.js -d dist",
-    "build": "npm install && npm run start",
+    "postinstall": "npm install && npm run start",
     "test": "mocha"
   },
   "repository": {
