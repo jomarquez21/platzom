@@ -5,7 +5,7 @@
   "main": "dist/src/platzom.js",
   "scripts": {
     "start": "babel src/platzom.js -d dist",
-    "postinstall": "yarn start",
+    "postinstall": "yarn",
     "test": "mocha"
   },
   "repository": {
