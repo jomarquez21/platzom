@@ -5,7 +5,7 @@
   "main": "dist/src/platzom.js",
   "scripts": {
     "start": "babel src/platzom.js -d dist",
-    "postinstall": "yarn install && yarn start",
+    "postinstall": "yarn start",
     "test": "mocha"
   },
   "repository": {
@@ -24,10 +24,8 @@
     "url": "https://github.com/jomarquez21/platzom/issues"
   },
   "homepage": "https://github.com/jomarquez21/platzom#readme",
-  "dependencies": {
-    "babel-cli": "^6.26.0"
-  },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
