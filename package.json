@@ -8,6 +8,7 @@
     "install": "yarn install",
     "test": "mocha"
   },
+  "bin": "cli.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jomarquez21/platzom.git"
